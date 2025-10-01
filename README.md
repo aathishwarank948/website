@@ -244,9 +244,22 @@ contact.html
     </div>
 </div>
 {% endblock %}
+```
 
 # OUTPUT:
-website/Screenshot 2025-10-01 225705.png
+<img width="1896" height="1013" alt="Screenshot 2025-10-01 225705" src="https://github.com/user-attachments/assets/133e3808-377d-4c93-9311-502e42a2784e" />
+
+<img width="1901" height="1014" alt="Screenshot 2025-10-01 225724" src="https://github.com/user-attachments/assets/315fe0b9-b23f-4afc-967d-1416c498d843" />
+<img width="1895" height="1012" alt="Screenshot 2025-10-01 225734" src="https://github.com/user-attachments/assets/b3d8e954-ed28-4818-a862-b42008d56d5b" />
+
+
+<img width="1898" height="1017" alt="Screenshot 2025-10-01 225747" src="https://github.com/user-attachments/assets/c1836f99-44d4-4289-8a94-bcaa1e125516" />
+
+<img width="1918" height="825" alt="Screenshot 2025-10-01 225758" src="https://github.com/user-attachments/assets/cb43cda5-51a9-47ac-89b0-1a9b4e50ea08" />
+
+
+
 
 # RESULT:
+
 The program for designing software company website using HTML and CSS is completed successfully.
