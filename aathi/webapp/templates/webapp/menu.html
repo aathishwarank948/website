@@ -1,0 +1,27 @@
+{% extends 'webapp/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4" style="color:#ee0979; text-shadow: 2px 2px 8px #43c6ac;">Our Menu</h2>
+    <div class="row">
+        {% for item in food_items %}
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 food-card" style="border-radius:18px; box-shadow:0 4px 16px #ee097933; transition:transform 0.3s;">
+                <img src="{{ item.image }}" class="card-img-top" alt="{{ item.name }}" style="border-radius:18px 18px 0 0; height:180px; object-fit:cover;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="color:#ff6a00; font-weight:bold;">{{ item.name }}</h5>
+                    <p class="card-text" style="color:#43c6ac;">{{ item.description }}</p>
+                    <span class="badge bg-warning text-dark" style="font-size:1.1rem;">Rs{{ item.price }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<style>
+.food-card:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 32px #ff6a00aa;
+    border: 2px solid #ee0979;
+}
+</style>
+{% endblock %}

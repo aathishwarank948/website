@@ -1,0 +1,14 @@
+{% extends 'webapp/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4" style="color:#ff6a00; text-shadow: 2px 2px 8px #ee0979;">Contact Us</h2>
+    <div class="card p-4" style="border-radius:18px; box-shadow:0 4px 16px #ff6a0033; background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);">
+        <h5 style="color:#ee0979;"><i class="fas fa-map-marker-alt"></i> Address:</h5>
+        <p style="color:#43c6ac; font-weight:bold;">{{ contact.address }}</p>
+        <h5 style="color:#ee0979;"><i class="fas fa-phone"></i> Phone:</h5>
+        <p style="color:#43c6ac; font-weight:bold;">{{ contact.phone }}</p>
+        <h5 style="color:#ee0979;"><i class="fas fa-envelope"></i> Email:</h5>
+        <p style="color:#43c6ac; font-weight:bold;">{{ contact.email }}</p>
+    </div>
+</div>
+{% endblock %}

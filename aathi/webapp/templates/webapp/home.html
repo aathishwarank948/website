@@ -1,0 +1,14 @@
+{% extends 'webapp/base.html' %}
+{% block content %}
+<div class="banner"></div>
+<div class="container mt-5 text-center">
+    <h1 class="display-4" style="color:#ee0979; text-shadow: 2px 2px 8px #ff6a00; animation: pulse 1.5s infinite alternate;">Welcome to My Restaurant</h1>
+    <p class="lead" style="color:#43c6ac; font-size:1.5rem;">Experience the <span style="color:#ff6a00; font-weight:bold;">best cuisine</span> in town!</p>
+    <a href="/menu/" class="btn btn-lg btn-glow mt-3"><i class="fas fa-utensils"></i> View Menu</a>
+</div>
+<style>
+@keyframes pulse {
+    to { text-shadow: 4px 4px 16px #43c6ac; color: #ff6a00; }
+}
+</style>
+{% endblock %}
